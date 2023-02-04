@@ -5,14 +5,13 @@ class CountEventDate extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    int count = 0;
     return Scaffold(
       body: SafeArea(
         child: Column(
           children: [
             const Text("Ngày quen nhau: 01/01/2022"),
             Text(
-                "Số ngày quen nhau: ${count_numberOfdays(DateTime.utc(2022, 1, 1))}"),
+                "Số ngày quen nhau: ${countNumberOfdays(DateTime.utc(2022, 1, 1))}"),
           ],
         ),
       ),
@@ -20,6 +19,6 @@ class CountEventDate extends StatelessWidget {
   }
 }
 
-int count_numberOfdays(DateTime date) {
+int countNumberOfdays(DateTime date) {
   return DateTime.now().difference(date).inDays;
 }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "526182679355",
+    "project_id": "thousands-sunny",
+    "storage_bucket": "thousands-sunny.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526182679355:android:7240da560c7c521d1aad1e",
+        "android_client_info": {
+          "package_name": "com.example.thousands_sunny"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526182679355-u98dlpibkbm1f24df5vai5bj5o19hgpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4B-lqp05IW9pukw2sB3muipyRiPClXT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526182679355-u98dlpibkbm1f24df5vai5bj5o19hgpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
