@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:thousands_sunny/src/widgets/appbar_custom.dart';
+import 'package:thousands_sunny/src/widgets/drawer_custom.dart';
 
-class CountEventDate extends StatelessWidget {
-  const CountEventDate({super.key});
+class CountEventDatePage extends StatelessWidget {
+  const CountEventDatePage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: appBarCustom(context: context, title: "Hello"),
+      drawer: const DrawerCustom(),
       body: SafeArea(
         child: Column(
           children: [
