@@ -12,7 +12,7 @@ class NotFoundPage extends StatelessWidget {
     return Center(
       child: Column(
         children: [
-          Text('404', style: Theme.of(context).textTheme.headline1),
+          Text('404', style: Theme.of(context).textTheme.displayLarge),
           const Text('Not found!'),
           ElevatedButton(
             onPressed: Navigator.of(context).pop,

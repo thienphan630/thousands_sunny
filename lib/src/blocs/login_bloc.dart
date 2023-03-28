@@ -17,4 +17,9 @@ class LoginBloc {
     }
     return true;
   }
+
+  void dispose() {
+    _userController.close();
+    _passController.close();
+  }
 }

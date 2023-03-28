@@ -16,13 +16,15 @@ PreferredSizeWidget appBarCustom(
     ),
     backgroundColor: appbarColor,
     title: Text(title),
-    leading: IconButton(
-      onPressed: () {
-        if (Scaffold.of(context).hasDrawer) {
-          Scaffold.of(context).openDrawer();
-        }
-      },
-      icon: const Icon(Icons.menu_open),
+    leading: Builder(
+      builder: (context) => IconButton(
+        onPressed: () {
+          if (Scaffold.of(context).hasDrawer) {
+            Scaffold.of(context).openDrawer();
+          }
+        },
+        icon: const Icon(Icons.menu_open),
+      ),
     ),
     actions: [
       IconButton(
