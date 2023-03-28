@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:thousands_sunny/src/config/routes.dart';
-import 'package:thousands_sunny/src/resources/home_page.dart';
+import 'package:thousands_sunny/src/screen/home_page.dart';
 
 class App extends StatefulWidget {
   const App({super.key});
