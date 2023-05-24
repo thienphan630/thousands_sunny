@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:thousands_sunny/src/config/route_path.dart';
-import 'package:thousands_sunny/src/style/styles_index.dart';
+import 'package:thousands_sunny/src/utils/color_extension.dart';
 
 PreferredSizeWidget appBarCustom(
     {required BuildContext context, required String title}) {
+  final ColorExtension myColors =
+      Theme.of(context).extension<ColorExtension>()!;
   return AppBar(
     centerTitle: true,
     elevation: 2.0,
@@ -14,7 +16,7 @@ PreferredSizeWidget appBarCustom(
       fontSize: 18,
       fontWeight: FontWeight.w600,
     ),
-    backgroundColor: appbarColor,
+    backgroundColor: myColors.appBar,
     title: Text(title),
     leading: Builder(
       builder: (context) => IconButton(
